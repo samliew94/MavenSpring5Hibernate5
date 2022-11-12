@@ -1,5 +1,3 @@
-# Description
-
 ## Project demonstrate how to integrate all of the listed techs below into one:
 
 1. Java 11* (Java 8 can be used too, but would have to change datasource to tomcat-dbcp instead of HikariCP)*  
