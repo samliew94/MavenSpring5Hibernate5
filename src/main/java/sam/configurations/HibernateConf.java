@@ -18,7 +18,6 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 @Configuration
-@ComponentScan("sam.models")
 public class HibernateConf {
 	
 	public HibernateConf() {
