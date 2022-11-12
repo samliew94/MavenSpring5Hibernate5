@@ -63,7 +63,7 @@ public class HibernateConf {
         hibernateProperties.setProperty(
           "hibernate.hbm2ddl.auto", "none");
         hibernateProperties.setProperty(
-          "hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+          "hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect"); // change this if using mysql 8
 
         return hibernateProperties;
     }
