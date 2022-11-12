@@ -49,10 +49,10 @@ public class HibernateConf {
 		DataSource dataSource = new HikariDataSource(config); // default to HikariCP
 		
 //		BasicDataSource dataSource = new BasicDataSource(); // optionally use tomcat-dbcp
-//        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-//        dataSource.setUrl("jdbc:mysql://localhost:3306/lis_local?useSSL=false");
-//        dataSource.setUsername("root");
-//        dataSource.setPassword("root");
+//      dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+//      dataSource.setUrl("jdbc:mysql://localhost:3306/lis_local?useSSL=false");
+//      dataSource.setUsername("root");
+//      dataSource.setPassword("root");
 
 	    return dataSource;
 	}
